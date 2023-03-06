@@ -1,0 +1,34 @@
+
+.find_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../pics/image_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_ {
+    background-image: url('../pics/bg_1.jpg');
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+}
+
+.our_map {
+    border-radius: 0.5rem;
+    width: 60%;
+    height: 40%;
+}
+
+
+
+.map_img{
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+

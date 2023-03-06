@@ -1,0 +1,112 @@
+{% block content %}
+<link rel="stylesheet" href="../static/css/spin.css">
+<!--link rel="stylesheet" href="ball.css"-->
+</head>
+<section class="main_box" id="order_now">
+
+	<div class="box">
+		<span>
+		<div class='inner'>
+		    <div style="--i:1">P</div>
+		    <div style="--i:2">I</div>
+		    <div style="--i:3">Z</div>
+		    <div style="--i:4">Z</div>
+		    <div style="--i:5">A</div>
+		    <div style="--i:6">!</div>
+		</div>
+		<div class="order_now">
+			<div>
+				<input type="submit" class="btn" id="btn" name="order_button" value="ORDER NOW">
+
+			</div>
+		</div>
+		</span>
+	</div>
+
+
+
+	<!-- ORDER MODAL -->
+    <div  class="bg-modal" id="bg-modal">
+        <div class="modal-content" id="modal-content" >
+            <div class="close" id="close">+</div>
+            <form method="POST">
+                <!-- ToDo:                 -->
+                <!-- CREATE POPUP       /  -->
+                <!-- NAME INPUT			/  -->
+                <!-- NUMBER INPUT   	/  -->
+                <!-- ADDR INPUT		    /  -->
+
+				<!-- PIZZA SELECT       /  -->
+                <!-- NUMBER OF PIZZA    /  -->
+                <!-- MSG			    /  -->
+
+				<!-- PRICE CALCULATION   **  -->
+                {# NAME INPUT #}
+                <div class="name-in">
+                        <label class="client-name-lb">NAME</label>
+                        <input type="text" id="client-name" name="client-name" placeholder="NAME" required>
+                </div>
+				{# NUMBER INPUT #}
+				<div class="num-in">
+                    <label class="client-num-lb">NUMBER</label>
+                    <input type="tel" id="client-num" name="client-num" placeholder="NUMBER" required>
+                </div>
+				{# ADDR INPUT #}
+				<div class="addr-in">
+                    <label class="client-addr-lb">ADDRESS</label>
+                    <input type="text" id="client-addr" name="client-addr" placeholder="ADDRESS" required>
+                </div>
+
+				{# PIZZA SIZES & QUANTITIES #}
+				<div class="small_pizza">
+					<div class="selected">
+						<label class="client-addr-lb">SMALL</label>
+						<!--input name="small_pizza" type="checkbox"-->
+					</div>
+					<div class="quants">
+						<input id="spq" class="small_pizza_q" type="number" name="spq" value="0" min="0" max="25">
+						<div id="sub_small" class="sub_">-</div>
+						<div id="add_small" class="add_">+</div>
+					</div>
+				</div>
+				<div class="medium_pizza">
+					<div class="selected">
+						<label class="client-addr-lb">MEDIUM</label>
+						<!--input name="medium_pizza" type="checkbox"-->
+					</div>	
+					<div class="quants">
+						<input  id="mpq" class="medium_pizza_q" type="number" name="mpq" value="0" min="0" max="25">
+						<div id="sub_med" class="sub_">-</div>
+						<div id="add_med" class="add_">+</div>
+					</div>
+				</div>
+				<div class="large_pizza">
+					<div class="selected">
+						<label class="client-addr-lb">LARGE</label>
+						<!--input name="large_pizza" type="checkbox"-->
+					</div>
+					<div class="quants">
+						<input id="lpq" class="large_pizza_q" type="number" name="lpq" value="0" min="0" max="25">
+						<div id="sub_lar" class="sub_">-</div>
+						<div id="add_lar" class="add_">+</div>
+					</div>
+				</div>
+				<div class="calc">
+					TOTAL = R {{ price_ }}
+					<input style="display: none;" name="price_" type='text' id="myFin">
+				</div>
+				<div class="oreder_up">
+					<input class="enter_" id="enter_" type="submit" name="submit_button"  value="ORDER UP">
+				</div>
+				
+			</form>
+		</div>
+	</div>
+
+</section>
+
+<script src="../static/js/spin.js">
+
+</script>
+
+{% endblock %}
