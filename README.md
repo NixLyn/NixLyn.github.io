@@ -1,2 +1,2 @@
-# NixLyn.github.io/templates/index.html
+# NixLyn.github.io/index.html
 NixLyn docs page
