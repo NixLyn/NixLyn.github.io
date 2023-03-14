@@ -8,12 +8,10 @@
     <link rel="icon" type="image/x-icon" href="static/pics/bg_1.png">
     <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="static/css/spin.css">
-    <!--link rel="stylesheet" href="static/css/about_us.css">
-    <link rel="stylesheet" href="static/css/foot_.css" -->
+    <link rel="stylesheet" href="static/css/about_us.css">
     <title>NixLyn</title>
 
 
-    <!--link rel="stylesheet" href="ball.css"-->
     <link rel="stylesheet" type="text/css" href="static/css/nav_bar.css">
 
 
@@ -23,7 +21,7 @@
         <!-- NAV_BAR -->
         <nav class="navbar navbar-fixed-top" id="nav_bar">
             <div class="login">
-                <a href="./login">LOGIN</a>
+                <a href="./login"></a>
             </div>
             <div class="nav-menu">
             <!-- ADD LINKS -->
@@ -32,13 +30,10 @@
                     <a href="#order_now" class="nav-link">JOIN</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#menu" class="nav-link">SERVICES</a>
+                    <a href="#menu" class="nav-link">OUR TEAM</a>
                 </li>
                 <li class="nav-item">
                     <a href="#about_us" class="nav-link">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#find_us" class="nav-link">LOGIN</a>
                 </li>
             </ul>
         </div>
@@ -66,114 +61,60 @@
                 </div>
                 <div class="order_now">
                     <div>
-                        <input type="submit" class="btn" id="btn" name="order_button" value="ORDER NOW">
-        
+                        <input type="submit" href="https://github.com/NixLyn/NixLyn.github.io" class="btn" id="btn" name="order_button" value="VIEW NOW">
                     </div>
                 </div>
                 </span>
             </div>
+        </section>
 
-            <!-- ORDER MODAL -->
-            <div  class="bg-modal" id="bg-modal">
-                <div class="modal-content" id="modal-content" >
-                    <div class="close" id="close">+</div>
-                    <form method="POST">
-                        <!-- ToDo:                 -->
-                        <!-- CREATE POPUP       /  -->
-                        <!-- NAME INPUT			/  -->
-                        <!-- NUMBER INPUT   	/  -->
-                        <!-- ADDR INPUT		    /  -->
-        
-                        <!-- PIZZA SELECT       /  -->
-                        <!-- NUMBER OF PIZZA    /  -->
-                        <!-- MSG			    /  -->
-        
-                        <!-- PRICE CALCULATION   **  -->
-                        {# NAME INPUT #}
-                        <div class="name-in">
-                                <label class="client-name-lb">NAME</label>
-                                <input type="text" id="client-name" name="client-name" placeholder="NAME" required>
-                        </div>
-                        {# NUMBER INPUT #}
-                        <div class="num-in">
-                            <label class="client-num-lb">NUMBER</label>
-                            <input type="tel" id="client-num" name="client-num" placeholder="NUMBER" required>
-                        </div>
-                        {# ADDR INPUT #}
-                        <div class="addr-in">
-                            <label class="client-addr-lb">ADDRESS</label>
-                            <input type="text" id="client-addr" name="client-addr" placeholder="ADDRESS" required>
-                        </div>
-        
-                        {# PIZZA SIZES & QUANTITIES #}
-                        <div class="small_pizza">
-                            <div class="selected">
-                                <label class="client-addr-lb">SMALL</label>
-                                <!--input name="small_pizza" type="checkbox"-->
-                            </div>
-                            <div class="quants">
-                                <input id="spq" class="small_pizza_q" type="number" name="spq" value="0" min="0" max="25">
-                                <div id="sub_small" class="sub_">-</div>
-                                <div id="add_small" class="add_">+</div>
-                            </div>
-                        </div>
-                        <div class="medium_pizza">
-                            <div class="selected">
-                                <label class="client-addr-lb">MEDIUM</label>
-                                <!--input name="medium_pizza" type="checkbox"-->
-                            </div>	
-                            <div class="quants">
-                                <input  id="mpq" class="medium_pizza_q" type="number" name="mpq" value="0" min="0" max="25">
-                                <div id="sub_med" class="sub_">-</div>
-                                <div id="add_med" class="add_">+</div>
-                            </div>
-                        </div>
-                        <div class="large_pizza">
-                            <div class="selected">
-                                <label class="client-addr-lb">LARGE</label>
-                                <!--input name="large_pizza" type="checkbox"-->
-                            </div>
-                            <div class="quants">
-                                <input id="lpq" class="large_pizza_q" type="number" name="lpq" value="0" min="0" max="25">
-                                <div id="sub_lar" class="sub_">-</div>
-                                <div id="add_lar" class="add_">+</div>
-                            </div>
-                        </div>
-                        <div class="calc">
-                            TOTAL = R {{ price_ }}
-                            <input style="display: none;" name="price_" type='text' id="myFin">
-                        </div>
-                        <div class="oreder_up">
-                            <input class="enter_" id="enter_" type="submit" name="submit_button"  value="ORDER UP">
-                        </div>
-                        
-                    </form>
+
+        <!-- PROJECTS -->
+        <section class="main_box" id="order_now" style="background-image: url(static/pics/rain_mxt.gif);">
+            <div class="box">
+                <span>
+                <div class='inner'>
+                    <div class="stnd">M</div>
+                    <div class="stnd">c</div>
+                    <div class="stnd">B</div>
+                    <div class="stnd">R</div>
+                    <div class="stnd">E</div>
+                    <div class="stnd">T</div>
+                    <div class="stnd">A</div>
                 </div>
+                <div class="order_now">
+                    <div>
+                        <h4 style="color: white;">
+                            McBreta (Beta): A powerful automated Off-Sec tool for pro or novice,
+                            this tool allows simple input of IP:Port ranges, to more verbose options 
+                            such as threading levels and attack types.
+                            Making use of known tools such as MetaSploit and our own hand crafted ones,
+                            such as Frankie's BufferOverLoad and Dillon's Packet'Cap.
+                        </h4>
+                    </div>
+                </div>
+                </span>
             </div>
         </section>
-        <!-- MAIN_BOX -->
 
+
+
+        <!-- PROFILES -->
+        <section class="our_team">
+            <div class="meat_us">
+                <h1 style="color: white; align-items: top;">
+                    Meet the TEAM
+                </h1>
+
+            </div>
+        </section>
         
 
-        <!-- CONNECTION_TESTER 
-        <section class="about_us" id="about_us">
-          <h1>TEST_CONN</h1>
-          <form name="myForm" onsubmit="validate();">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Node IP:</label><br>
-            <input type="text" id="Node_IP" name="host"><br><br>
-            <input type="submit" value="Submit">
-          </form> 
-        </section>
-         CONNECTION_TESTER -->
+
+        
+        
 
 
-        <footer style=" height: 100vh; background-image: url('static/pics/cha.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;">
-
-        </footer>
     </body>
 </html>
 
@@ -183,27 +124,5 @@
 
 
 
-<script>
-    var x = document.getElementById("demo");
-    function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-        alert(showPosition);
-    } else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-      }
-    }
-    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("nav_bar").style.top = "0";
-      } else {
-        document.getElementById("nav_bar").style.top = "-12vh";
-      }
-      prevScrollpos = currentScrollPos;
-    } 
-</script>
 
 
