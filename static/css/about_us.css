@@ -39,7 +39,7 @@
 	background-color: #a1a1a100;
 
 	width: 95%;
-	height: 75%;
+	height: 85%;
 }
 
 .meat_us_dil {
@@ -50,7 +50,7 @@
 	background-color: #90F010;
 
 	width: 45%;
-	height: 60%;
+	height: 80%;
 	margin-right: 10px;
 	padding: 10px 20px ;
 	box-shadow: 2px 2px #ff0010,
@@ -61,6 +61,22 @@
 	cursor: pointer;
 }
 
+
+.dil_{
+	display: flex;
+}
+
+.dil_pic {
+	width: 15vw;
+	height: 25vh;
+
+	background-image: url("../pics/dillon.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
 .meat_us_frk {
 	text-align: center;
 	align-items: center;
@@ -69,7 +85,7 @@
 	background-color: #ff0010;
 
 	width: 45%;
-	height: 60%;
+	height: 80%;
 	margin-left: 10px;
 	padding: 10px 20px ;
 	box-shadow: 2px 2px #90F010,
@@ -81,13 +97,24 @@
 
 }
 
+.frk_{
+	display: flex;
+}
 
+.frk_pic {
+	width: 15vw;
+	height: 25vh;
+
+	background-image: url("../pics/frankie.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 
 
 .scroll_text {
 	position:relative;
 	top:10px;
 	left:10px;
-	height:70%;
+	height:50%;
   }
   
