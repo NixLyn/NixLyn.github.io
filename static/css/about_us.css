@@ -9,23 +9,85 @@
 
 }
 
-.meat_us div input{
+.meat_us {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
 	border-radius: 0.5rem;
 	background-color: #A1A1A1;
 
-	width: 100%;
-	height: 50%;
+	width: 35%;
+	height: 10%;
 	padding: 10px 0 ;
 	box-shadow: 2px 2px #90F010,
 		   -2px -2px  #90F010,
 		   -2px 2px #90F010,
 		   2px -2px #90F010;
-	
 	font-weight: bolder;
 	cursor: pointer;
 
 }
 
+
+
+.profs_{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.5rem;
+	background-color: #a1a1a100;
+
+	width: 95%;
+	height: 75%;
+}
+
+.meat_us_dil {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.5rem;
+	background-color: #90F010;
+
+	width: 45%;
+	height: 60%;
+	margin-right: 10px;
+	padding: 10px 20px ;
+	box-shadow: 2px 2px #ff0010,
+		   -2px -2px  #ff0010,
+		   -2px 2px #ff0010,
+		   2px -2px #ff0010;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+.meat_us_frk {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.5rem;
+	background-color: #ff0010;
+
+	width: 45%;
+	height: 60%;
+	margin-left: 10px;
+	padding: 10px 20px ;
+	box-shadow: 2px 2px #90F010,
+		   -2px -2px  #90F010,
+		   -2px 2px #90F010,
+		   2px -2px #90F010;
+	font-weight: bolder;
+	cursor: pointer;
+
+}
+
+
+
+
+.scroll_text {
+	position:relative;
+	top:10px;
+	left:10px;
+	height:70%;
+  }
+  
