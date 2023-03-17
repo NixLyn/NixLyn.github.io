@@ -95,10 +95,12 @@ li {
 
 /*  MEDIA SIZE QUERY ADAPTATION  */
     /* CELLPHONE SIZE */
+
 @media
-only screen and (max-device-width: 480px), 
+only screen and (max-device-width: 790px), 
+only screen and (min-device-width: 320),
 only screen and (min-device-pixel-ratio : 1.5){
-    /* NAV_BURGER */
+        /* NAV_BURGER */
     .nav {
         display: flex;
         flex-direction: row;
@@ -120,7 +122,7 @@ only screen and (min-device-pixel-ratio : 1.5){
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-image: url('../pics/bg_4.jpg');
+        background-image: none;
     }
     /* TOP NAV */
     .hamburger {
@@ -179,7 +181,7 @@ only screen and (min-device-pixel-ratio : 1.5){
         align-items: center;
         justify-content: center;
         transition: 0.3s ease;
-        background-image: url("../pics/bg_4.jpg");
+        background-image: none;
         background-size: 100vw 30vh;
         background-repeat: no-repeat;
         background-position-y: top;

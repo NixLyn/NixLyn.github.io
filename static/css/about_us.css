@@ -118,3 +118,44 @@
 	height:50%;
   }
   
+
+
+
+@media
+only screen and (max-device-width: 790px), 
+only screen and (min-device-width: 320),
+only screen and (min-device-pixel-ratio : 1.5){
+	.our_team {
+		top: 30px;
+	}
+	.profs_{
+		display: block;
+	}
+	.meat_us_dil {
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+
+		height: 42%;
+		width: 75vw;
+	}
+
+	.meat_us_dil marquee{
+		top: -60px;
+	}
+	.meat_us_frk {
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+
+		height: 42%;
+		width: 75vw;
+	}
+	.meat_us_frk marquee{
+		top: -70px;
+	}
+
+
+
+
+}
